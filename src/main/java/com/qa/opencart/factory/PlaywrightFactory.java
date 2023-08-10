@@ -16,7 +16,7 @@ import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 
 public class PlaywrightFactory {
-
+	// Defining web elements
 	Properties prop;
 	
 	private static ThreadLocal<Browser> tlBrowser = new ThreadLocal<Browser>();
